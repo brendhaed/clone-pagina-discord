@@ -1,0 +1,119 @@
+/* media querie */
+@media screen and (max-width: 768px) {
+    /* header */
+    .inicio{
+        position: relative;
+        height: 600px;
+    }
+    .inicio h1{
+        text-align: left;
+        max-width: 600px;
+        font-size: 2rem;
+    }
+    .inicio p{
+        width: 350px;
+        max-width: 400px;
+        font-size: 0.9rem;
+    }
+    .inicio img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        background-repeat: no-repeat;
+    }
+    .buttons{
+        display: flex;
+        flex-direction:column;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 90%;
+        gap: 20px;
+    }
+     #b_white, #b_black {
+        width: 100%;
+        height: 54px;
+        font-size: 1rem;
+        align-items: center;
+    }
+    /* group 1 */
+    .group-1 {
+        padding: 50px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     .group-1 .col-txt{
+        padding: 20px;
+        width: 100%;
+        gap: 20px;
+    }
+    .col-txt h2{
+        font-size: 2rem;
+        text-align: left;
+    }
+    /* group 2 */
+    .group-2{
+        padding: 15px 10px;
+        display: flex;
+        flex-direction: column;
+        background: color #f6f6f6; 
+    }
+    .group-2 .col-txt{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 50px;
+        align-items: center;
+    }
+    /* group 3 */
+    .group-3{
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .group-3 .col-txt{
+        padding: 20px;
+        width: 100%;
+        gap: 20px;
+    }
+    /* group-4 */
+    .group-4{
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .group-4 h1{
+        font-size: 2rem;
+        width: 300px;
+        text-align: left;
+    }
+    .group-4 .col-txt{
+        padding: 20px;
+        width: 100%;
+        gap: 20px;
+    }
+    /* para groups 1, 2, 3 e 4 */
+    .group-1 h2, .group-2 h2, .group-3 h2, .group-4 h2 {
+        font-size: 1.1rem;
+    }
+     .group-1 img, .group-2 img, .group-3 img, .group-4 img{
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .col-imagem{
+        padding: auto;
+    }
+    footer{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+
+}
