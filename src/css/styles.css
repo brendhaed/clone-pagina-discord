@@ -1,1 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+     font-family: "Luckiest Guy", cursive;
+}
+p{
+    font-size: 1rem;
+}
+p, h2{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* header */
+header{
+    max-height: 459px;
+}
+.inicio{
+    display: relative;
+    width: 100%;
+}
+.inicio h1{
+    color: #ffff;
+    font-weight: 400;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    word-wrap: break-all; 
+}
+.inicio p{
+    color: #ffff;
+    max-width: 757px;
+}
+.inicio img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.inicio .texto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.buttons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#b_white{
+    font-size: 1rem;
+    width: 205px;
+    height: 44px;
+    color: #23272A;
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    cursor: pointer;
+    border: none;
+}
+#b_black{
+    font-size: 1rem;
+    width: 281px;
+    height: 44px;
+    color: #FFFFFF;
+    background-color: #23272A;
+    border-radius: 28px;
+    cursor: pointer;
+    border: none;
+}
+/* fim header */
+
+/* section 1 */
+.group-1{
+    display: flex;
+    padding: 100px;
+}
+.group-1 img{
+    width: 607px;
+    max-height: 394px;
+}
+.group-1 h2{
+    font-size:  2.5rem;
+    font-weight: 800;
+    color: #23272A;
+    letter-spacing: 1px;
+}
+.group-1 .col-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* section 2 */
+.group-2{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #F6F6F6;
+    padding: 50px;
+    max-height: 448px;
+}
+
+.group-2 img{
+    width: 607px;
+    max-height: 394px;
+}
+.group-2 h2{
+    font-size:  2.5rem;
+    font-weight: 800;
+    color: #23272A;
+}
+.group-2 .col-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px;
+}
+
+/* section 3 */
+.group-3{
+    display: flex;
+    padding: 100px;
+}
+.group-3 img{
+    width: 607px;
+    max-height: 394px;
+}
+.group-3 h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #23272A;
+    letter-spacing: 1px;
+}
+.group-3 .col-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 348px;
+}
+
+/* section 4 */
+.group-4{
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+    background-color: #F6F6F6;
+    max-height: 744px;
+}
+.group-4 img{
+    width: 784px;
+    max-height: 508px;
+}
+.group-4 h1{
+    font-size:  2.5rem;
+    font-weight: 400;
+    color: #23272A;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.group-4 p{
+    max-width: 802px;
+}
+
+.group-4 .col-txt{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+/* footer */
+footer{
+    background-color: #23272A;
+    max-height: 234px;
+    text-align: center;
+}
+.logo-footer img{
+    max-width: 230px;
+    height: auto;
+    padding: 20px;
+}
